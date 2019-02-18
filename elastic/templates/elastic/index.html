@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/allocation?v'>allocation</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/shards?v'>shards</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/master?v'>master</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/nodes?v'>nodes</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/tasks?v'>tasks</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/indices?v'>모든 index 가져오기</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/segments?v'>segments</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/count?v'>count</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/recovery?v'>recovery</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/health?v'>health</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/pending_tasks?v'>pending_tasks</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/aliases?v'>aliases</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/thread_pool?v'>thread_pool</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/plugins?v'>plugins</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/fielddata?v'>fielddata</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/nodeattrs?v'>nodeattrs</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/repositories?v'>repositories</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_cat/templates?v'>templates</a>
+    </li>
+    <hr>
+    <li>
+        <a href='http://182.161.122.92:7200/_cluster/health?pretty=true'>cluster 상태보기</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/_all/_settings?pretty=true'>Index 설정 조회</a>
+    </li>
+    <li>
+        <a href='http://182.161.122.92:7200/.kibana/_settings?pretty=true'>kibana 설정 조회</a>
+    </li>
+    
+
+</ul>
+
+{% endblock content %}
