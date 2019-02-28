@@ -10,6 +10,8 @@ django.bat
 media
 .aws
 eb_setenv.bat
+.aws
+.ebextensions
 logs
 run
 # Elastic Beanstalk Files

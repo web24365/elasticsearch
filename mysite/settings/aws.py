@@ -10,12 +10,12 @@ pymysql.install_as_MySQLdb()
 
 DATABASES = {
     'default': {
-        'ENGINE': os.environ['DB_ENGINE'],
-        'HOST': os.environ['DB_HOST'],
-        'USER': os.environ['DB_USER'],
-        'PASSWORD': os.environ['DB_PASSWORD'],
-        'NAME': os.environ['DB_NAME'],
-        'PORT': os.environ['DB_PORT'],
+        'ENGINE': os.environ['DATABASE_ENGINE'],
+        'HOST': os.environ['DATABASE_HOST'],
+        'USER': os.environ['DATABASE_USER'],
+        'PASSWORD': os.environ['DATABASE_PASSWORD'],
+        'NAME': os.environ['DATABASE_NAME'],
+        'PORT': os.environ['DATABASE_PORT'],
     }
 }
 
