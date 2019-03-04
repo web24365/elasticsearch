@@ -9,7 +9,7 @@ __pycache__
 django.bat
 media
 .aws
-eb_setenv.bat
+setenv.bat
 .aws
 .ebextensions
 logs
