@@ -3,7 +3,7 @@ import os
 import pymysql
 
 
-DEBUG=False
+DEBUG=True
 
 # pymysql이 MySQLdb처럼 동작하도록 셋팅
 pymysql.install_as_MySQLdb()
