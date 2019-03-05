@@ -66,6 +66,21 @@
     <li>
         <a href='http://182.161.122.92:7200/.kibana/_settings?pretty=true'>kibana 설정 조회</a>
     </li>
+    <hr>
+    {% comment %}
+    <table>
+        <form action="" method='POST'>
+        {% csrf_token %}
+        <table {{ form.as_table }}</table>
+        <input type="submit">
+        </form>
+    </table>
+    {% endcomment %}
+    <form action="" method='get'>
+        <input type="text" value="{{ request.GET.q }}" name="q" placeholder="삭제하려는 인덱스">
+        <button type="submit" class="btn btn-white">
+    </form>
+    <a href='http://182.161.122.92:9200'>{{request.GET.q}}</a>
     
 
 </ul>
